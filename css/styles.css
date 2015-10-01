@@ -1,0 +1,82 @@
+
+/**********************
+general styles
+***************************/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #addff6;
+}
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 80%;
+  border: 4px dashed gold;
+}
+
+.info {
+  background: #eee;
+  padding: 2em;
+  
+}
+/**********************
+monster health styles
+***************************/
+#health {
+  padding: 1em;
+  color: #fff;
+  background-color: #911;
+}
+
+/**********************
+your health styles
+***************************/
+
+#yourHealth {
+  padding: 1em;
+  color: #fff;
+  background-color: #2a2;
+}
+
+/**********************
+button styles
+***************************/
+button {
+  color: #fff;
+  padding: 1em 2em;
+  font-weight: bold;
+  border-radius: 10px;
+  border-bottom: 4px solid #333;
+}
+
+#attack {
+  background-color: #1c74ef;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+#potion {
+  background-color: #ee2f7f;
+  position: absolute;
+  top: 30%;
+  right: 30%;
+}
+
+#potion:disabled {
+  background-color: #777;
+}
+
+@media (max-width: 500px) {
+    #potion {
+      top: 60%;
+      left: 37%;
+      }
+    #attack {
+      top: 45%;
+      left: 37%;
+      }
+     
+
+}
+
